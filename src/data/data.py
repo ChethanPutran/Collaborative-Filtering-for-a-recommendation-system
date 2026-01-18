@@ -1,8 +1,6 @@
 import  numpy as np
 import scipy.io as sio
 
-print("Loading movie data...")
-print("FOlder Path:",__name__)
 
 def load_movie_data(movie_file='data/movies.mat', params_file='data/movieParams.mat'):
     """
